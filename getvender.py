@@ -46,8 +46,8 @@ def print_result(results_list):
 
 # options = get_arguments()
 # print(options.target)
-# scan_result = scan("192.168.11.0/24")
-scan_result = scan("131.206.239.0/24")
+scan_result = scan("192.168.11.0/24")
+# scan_result = scan("131.206.239.0/24")
 if scan_result:
     i = 0
     for mac_address in scan_result:
